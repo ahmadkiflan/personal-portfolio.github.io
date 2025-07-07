@@ -243,6 +243,7 @@ footer {
   /* Hero Section Start */
   .hero-section {
     flex-wrap: wrap;
+    padding: 2rem 10%;
   }
 
   .hero-section .content-1 {
@@ -252,7 +253,7 @@ footer {
   }
 
   .hero-section h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     max-width: 100%;
   }
   .hero-section img {
@@ -269,7 +270,7 @@ footer {
 
   .hero-section .content-1 a {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: black;
     text-decoration: none;
     color: white;
@@ -289,6 +290,10 @@ footer {
   .about-section .content-1 p {
     max-width: 100%;
   }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
   /* About Section End */
 
   /* Projects Section Start */
@@ -296,8 +301,16 @@ footer {
     flex-wrap: wrap;
   }
 
+  .projects-section figure img {
+    width: 100%;
+  }
+
   .projects-section figure img:hover {
     transform: none;
+  }
+
+  .projects-section h3 {
+    font-size: 2rem;
   }
 
   /* Projects Section End */
