@@ -301,6 +301,17 @@ footer {
   }
 
   /* Projects Section End */
+
+  /* Footer Start */
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  /* Footer End */
 }
 
 @media (max-width: 768px) {
