@@ -242,7 +242,7 @@ footer {
 @media (max-width: 576px) {
   /* Hero Section Start */
   .hero-section {
-    display: block;
+    flex-wrap: wrap;
   }
 
   .hero-section .content-1 {
@@ -256,7 +256,7 @@ footer {
     max-width: 100%;
   }
   .hero-section img {
-    width: 400px;
+    width: 100%;
     filter: none;
     background-color: wheat;
     border-radius: 50%;
